@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" width="1600" height="1100" fill="none">
+  <title>North — conceptual business analytics dashboard</title>
+  <defs>
+    <linearGradient id="db-bg" x1="140" y1="100" x2="1500" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B11"/>
+      <stop offset=".55" stop-color="#080B10"/>
+      <stop offset="1" stop-color="#0A1014"/>
+    </linearGradient>
+    <radialGradient id="db-glow" cx="0" cy="0" r="1" gradientTransform="translate(1310 230) rotate(125) scale(500 400)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C6FF4D" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#C6FF4D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="db-glow2" cx="0" cy="0" r="1" gradientTransform="translate(260 930) rotate(-45) scale(430 320)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4D9BFF" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#4D9BFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="db-chart" x1="484" y1="690" x2="1070" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C6FF4D" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#C6FF4D" stop-opacity=".28"/>
+    </linearGradient>
+    <linearGradient id="db-line" x1="484" y1="600" x2="1080" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FA32A"/>
+      <stop offset="1" stop-color="#C6FF4D"/>
+    </linearGradient>
+    <filter id="db-shadow" x="30" y="40" width="1540" height="1020" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="40" stdDeviation="50" flood-color="#000" flood-opacity=".65"/>
+    </filter>
+    <filter id="db-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <clipPath id="db-clip">
+      <rect x="100" y="160" width="1400" height="800" rx="24"/>
+    </clipPath>
+    <pattern id="db-grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" stroke="#FFFFFF" stroke-opacity=".03"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1100" fill="url(#db-bg)"/>
+  <rect width="1600" height="1100" fill="url(#db-glow)"/>
+  <rect width="1600" height="1100" fill="url(#db-glow2)"/>
+  <rect width="1600" height="1100" fill="url(#db-grid)"/>
+
+  <g filter="url(#db-shadow)">
+    <rect x="100" y="160" width="1400" height="800" rx="24" fill="#0B1017"/>
+    <g clip-path="url(#db-clip)">
+      <rect x="100" y="160" width="1400" height="800" fill="#0B1017"/>
+
+      <rect x="100" y="160" width="248" height="800" fill="#080C11"/>
+      <path d="M348 160v800" stroke="#FFFFFF" stroke-opacity=".07"/>
+      <rect x="130" y="202" width="30" height="30" rx="9" fill="#C6FF4D"/>
+      <path d="M138 223v-12l7-5 7 5v12h-5v-7h-4v7h-5Z" fill="#0B1017"/>
+      <text x="172" y="222" fill="#F2F4EF" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3">NORTH</text>
+
+      <text x="130" y="286" fill="#4E565F" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2">WORKSPACE</text>
+      <rect x="118" y="304" width="212" height="42" rx="10" fill="#C6FF4D" fill-opacity=".1"/>
+      <rect x="118" y="304" width="3" height="42" rx="1.5" fill="#C6FF4D"/>
+      <circle cx="142" cy="325" r="6" stroke="#C6FF4D" stroke-width="1.5"/>
+      <text x="160" y="330" fill="#C6FF4D" font-family="Arial, Helvetica, sans-serif" font-size="12">Overview</text>
+      <circle cx="142" cy="371" r="6" stroke="#6C747E" stroke-width="1.5"/>
+      <text x="160" y="376" fill="#8A929C" font-family="Arial, Helvetica, sans-serif" font-size="12">Analytics</text>
+      <circle cx="142" cy="417" r="6" stroke="#6C747E" stroke-width="1.5"/>
+      <text x="160" y="422" fill="#8A929C" font-family="Arial, Helvetica, sans-serif" font-size="12">Revenue</text>
+      <circle cx="142" cy="463" r="6" stroke="#6C747E" stroke-width="1.5"/>
+      <text x="160" y="468" fill="#8A929C" font-family="Arial, Helvetica, sans-serif" font-size="12">Customers</text>
+      <circle cx="142" cy="509" r="6" stroke="#6C747E" stroke-width="1.5"/>
+      <text x="160" y="514" fill="#8A929C" font-family="Arial, Helvetica, sans-serif" font-size="12">Reports</text>
+
+      <text x="130" y="582" fill="#4E565F" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2">GENERAL</text>
+      <circle cx="142" cy="617" r="6" stroke="#6C747E" stroke-width="1.5"/>
+      <text x="160" y="622" fill="#8A929C" font-family="Arial, Helvetica, sans-serif" font-size="12">Team</text>
+      <circle cx="142" cy="663" r="6" stroke="#6C747E" stroke-width="1.5"/>
+      <text x="160" y="668" fill="#8A929C" font-family="Arial, Helvetica, sans-serif" font-size="12">Settings</text>
+
+      <rect x="126" y="856" width="196" height="70" rx="12" fill="#10161E" stroke="#FFFFFF" stroke-opacity=".07"/>
+      <circle cx="154" cy="884" r="15" fill="#2B3A2A"/>
+      <text x="154" y="889" text-anchor="middle" fill="#C6FF4D" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700">LA</text>
+      <text x="180" y="882" fill="#DDE1DA" font-family="Arial, Helvetica, sans-serif" font-size="11">Lucas Andrade</text>
+      <text x="180" y="899" fill="#616A74" font-family="Arial, Helvetica, sans-serif" font-size="9">Administrator</text>
+
+      <text x="388" y="210" fill="#5F6872" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2">DASHBOARD / OVERVIEW</text>
+      <text x="388" y="254" fill="#F2F4EF" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="-1">Good morning, Lucas.</text>
+      <text x="388" y="280" fill="#7A828C" font-family="Arial, Helvetica, sans-serif" font-size="12">Here is what happened across your business this week.</text>
+
+      <rect x="1110" y="212" width="212" height="44" rx="10" fill="#10161E" stroke="#FFFFFF" stroke-opacity=".08"/>
+      <text x="1130" y="239" fill="#8A929C" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="1">01 — 07 NOV 2026</text>
+      <path d="M1292 231v6l4 3" stroke="#C6FF4D" stroke-width="1.3"/>
+      <rect x="1338" y="212" width="126" height="44" rx="10" fill="#C6FF4D"/>
+      <text x="1401" y="239" text-anchor="middle" fill="#0B1017" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1">EXPORT</text>
+
+      <rect x="388" y="320" width="332" height="138" rx="14" fill="#0F151D" stroke="#FFFFFF" stroke-opacity=".07"/>
+      <text x="412" y="352" fill="#7A828C" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="1.5">TOTAL REVENUE</text>
+      <text x="412" y="402" fill="#F2F4EF" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing="-1.5">$84,320</text>
+      <rect x="412" y="420" width="86" height="22" rx="11" fill="#C6FF4D" fill-opacity=".12"/>
+      <text x="426" y="435" fill="#C6FF4D" font-family="Arial, Helvetica, sans-serif" font-size="10">+12.4%</text>
+      <text x="510" y="435" fill="#66707A" font-family="Arial, Helvetica, sans-serif" font-size="10">vs last week</text>
+      <path d="M630 394c10-12 18 4 28-6s16 2 26-10 18 2 24-6" stroke="#C6FF4D" stroke-width="1.5" stroke-opacity=".6"/>
+
+      <rect x="736" y="320" width="332" height="138" rx="14" fill="#0F151D" stroke="#FFFFFF" stroke-opacity=".07"/>
+      <text x="760" y="352" fill="#7A828C" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="1.5">ACTIVE CUSTOMERS</text>
+      <text x="760" y="402" fill="#F2F4EF" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing="-1.5">2,184</text>
+      <rect x="760" y="420" width="76" height="22" rx="11" fill="#C6FF4D" fill-opacity=".12"/>
+      <text x="774" y="435" fill="#C6FF4D" font-family="Arial, Helvetica, sans-serif" font-size="10">+8.1%</text>
+      <text x="848" y="435" fill="#66707A" font-family="Arial, Helvetica, sans-serif" font-size="10">vs last week</text>
+      <circle cx="1006" cy="418" r="24" stroke="#C6FF4D" stroke-opacity=".22" stroke-width="5"/>
+      <path d="M1006 394a24 24 0 0 1 22 33" stroke="#C6FF4D" stroke-width="5" stroke-linecap="round"/>
+
+      <rect x="1084" y="320" width="380" height="138" rx="14" fill="#0F151D" stroke="#FFFFFF" stroke-opacity=".07"/>
+      <text x="1108" y="352" fill="#7A828C" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="1.5">CONVERSION RATE</text>
+      <text x="1108" y="402" fill="#F2F4EF" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing="-1.5">4.78%</text>
+      <text x="1366" y="352" fill="#66707A" font-family="Arial, Helvetica, sans-serif" font-size="10">GOAL / 5%</text>
+      <rect x="1108" y="426" width="332" height="6" rx="3" fill="#1B232D"/>
+      <rect x="1108" y="426" width="276" height="6" rx="3" fill="#C6FF4D"/>
+      <text x="1108" y="449" fill="#66707A" font-family="Arial, Helvetica, sans-serif" font-size="9">95% OF TARGET</text>
+
+      <rect x="388" y="482" width="680" height="330" rx="14" fill="#0F151D" stroke="#FFFFFF" stroke-opacity=".07"/>
+      <text x="414" y="518" fill="#F2F4EF" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Revenue overview</text>
+      <text x="414" y="538" fill="#66707A" font-family="Arial, Helvetica, sans-serif" font-size="10">Weekly performance across all channels</text>
+      <rect x="864" y="504" width="78" height="26" rx="13" fill="#C6FF4D" fill-opacity=".12"/>
+      <text x="903" y="521" text-anchor="middle" fill="#C6FF4D" font-family="Arial, Helvetica, sans-serif" font-size="9">Revenue</text>
+      <rect x="950" y="504" width="92" height="26" rx="13" fill="#161E27"/>
+      <text x="996" y="521" text-anchor="middle" fill="#7A828C" font-family="Arial, Helvetica, sans-serif" font-size="9">Customers</text>
+
+      <path d="M414 574h624M414 626h624M414 678h624M414 730h624M414 782h624" stroke="#FFFFFF" stroke-opacity=".05"/>
+      <text x="414" y="588" fill="#3F4852" font-family="Arial, Helvetica, sans-serif" font-size="8">$20k</text>
+      <text x="414" y="640" fill="#3F4852" font-family="Arial, Helvetica, sans-serif" font-size="8">$15k</text>
+      <text x="414" y="692" fill="#3F4852" font-family="Arial, Helvetica, sans-serif" font-size="8">$10k</text>
+      <text x="414" y="744" fill="#3F4852" font-family="Arial, Helvetica, sans-serif" font-size="8">$5k</text>
+      <text x="414" y="796" fill="#3F4852" font-family="Arial, Helvetica, sans-serif" font-size="8">$0</text>
+
+      <path d="M472 760C520 744 548 688 596 700s52-42 96-30 60 44 104 16 58-52 102-38 56-44 100-52 60-18 86-36v190H472Z" fill="url(#db-chart)"/>
+      <path d="M472 760C520 744 548 688 596 700s52-42 96-30 60 44 104 16 58-52 102-38 56-44 100-52 60-18 86-36" stroke="url(#db-line)" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="1080" cy="560" r="4" fill="#C6FF4D"/>
+      <circle cx="1080" cy="560" r="9" stroke="#C6FF4D" stroke-opacity=".3"/>
+      <rect x="1042" y="528" width="76" height="24" rx="6" fill="#C6FF4D"/>
+      <text x="1080" y="544" text-anchor="middle" fill="#0B1017" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700">$18,420</text>
+      <text x="472" y="800" fill="#3F4852" font-family="Arial, Helvetica, sans-serif" font-size="8">MON</text>
+      <text x="576" y="800" fill="#3F4852" font-family="Arial, Helvetica, sans-serif" font-size="8">TUE</text>
+      <text x="680" y="800" fill="#3F4852" font-family="Arial, Helvetica, sans-serif" font-size="8">WED</text>
+      <text x="784" y="800" fill="#3F4852" font-family="Arial, Helvetica, sans-serif" font-size="8">THU</text>
+      <text x="888" y="800" fill="#3F4852" font-family="Arial, Helvetica, sans-serif" font-size="8">FRI</text>
+      <text x="992" y="800" fill="#3F4852" font-family="Arial, Helvetica, sans-serif" font-size="8">SAT</text>
+      <text x="1080" y="800" fill="#3F4852" font-family="Arial, Helvetica, sans-serif" font-size="8">SUN</text>
+
+      <rect x="1084" y="482" width="380" height="330" rx="14" fill="#0F151D" stroke="#FFFFFF" stroke-opacity=".07"/>
+      <text x="1108" y="518" fill="#F2F4EF" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Acquisition</text>
+      <text x="1108" y="538" fill="#66707A" font-family="Arial, Helvetica, sans-serif" font-size="10">Traffic by channel</text>
+      <circle cx="1268" cy="638" r="58" stroke="#242D37" stroke-width="16"/>
+      <circle cx="1268" cy="638" r="58" stroke="#C6FF4D" stroke-width="16" stroke-dasharray="164 365" stroke-linecap="round" transform="rotate(-90 1268 638)"/>
+      <circle cx="1268" cy="638" r="58" stroke="#5A8FCB" stroke-width="16" stroke-dasharray="94 365" stroke-linecap="round" transform="rotate(72 1268 638)"/>
+      <circle cx="1268" cy="638" r="58" stroke="#7B5BCC" stroke-width="16" stroke-dasharray="52 365" stroke-linecap="round" transform="rotate(166 1268 638)"/>
+      <text x="1268" y="634" text-anchor="middle" fill="#F2F4EF" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">64%</text>
+      <text x="1268" y="653" text-anchor="middle" fill="#66707A" font-family="Arial, Helvetica, sans-serif" font-size="8">ORGANIC</text>
+      <circle cx="1110" cy="732" r="4" fill="#C6FF4D"/>
+      <text x="1122" y="736" fill="#8A929C" font-family="Arial, Helvetica, sans-serif" font-size="10">Organic search</text>
+      <text x="1436" y="736" text-anchor="end" fill="#F2F4EF" font-family="Arial, Helvetica, sans-serif" font-size="10">64%</text>
+      <circle cx="1110" cy="758" r="4" fill="#5A8FCB"/>
+      <text x="1122" y="762" fill="#8A929C" font-family="Arial, Helvetica, sans-serif" font-size="10">Social</text>
+      <text x="1436" y="762" text-anchor="end" fill="#F2F4EF" font-family="Arial, Helvetica, sans-serif" font-size="10">22%</text>
+      <circle cx="1110" cy="784" r="4" fill="#7B5BCC"/>
+      <text x="1122" y="788" fill="#8A929C" font-family="Arial, Helvetica, sans-serif" font-size="10">Referral</text>
+      <text x="1436" y="788" text-anchor="end" fill="#F2F4EF" font-family="Arial, Helvetica, sans-serif" font-size="10">14%</text>
+
+      <rect x="388" y="832" width="1076" height="96" rx="14" fill="#0F151D" stroke="#FFFFFF" stroke-opacity=".07"/>
+      <text x="414" y="864" fill="#F2F4EF" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">Recent transactions</text>
+      <text x="1372" y="864" fill="#C6FF4D" font-family="Arial, Helvetica, sans-serif" font-size="10">View all</text>
+      <text x="414" y="896" fill="#66707A" font-family="Arial, Helvetica, sans-serif" font-size="9">Order #2408</text>
+      <text x="584" y="896" fill="#8A929C" font-family="Arial, Helvetica, sans-serif" font-size="9">Aura Objects</text>
+      <text x="1050" y="896" fill="#8A929C" font-family="Arial, Helvetica, sans-serif" font-size="9">Nov 05, 2026</text>
+      <text x="1372" y="896" text-anchor="end" fill="#C6FF4D" font-family="Arial, Helvetica, sans-serif" font-size="10">+$1,240.00</text>
+      <text x="584" y="916" fill="#66707A" font-family="Arial, Helvetica, sans-serif" font-size="8">Paid — Card ending 4242</text>
+    </g>
+    <rect x="100.5" y="160.5" width="1399" height="799" rx="24" stroke="#FFFFFF" stroke-opacity=".13"/>
+  </g>
+
+  <g transform="translate(1302 738) rotate(4)">
+    <rect width="240" height="310" rx="28" fill="#05080B" stroke="#333B44" stroke-width="2"/>
+    <rect x="10" y="10" width="220" height="290" rx="20" fill="#0D131A"/>
+    <rect x="94" y="19" width="52" height="12" rx="6" fill="#05080B"/>
+    <text x="28" y="66" fill="#68727C" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="2">TOTAL REVENUE</text>
+    <text x="28" y="100" fill="#F2F4EF" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="-1">$84,320</text>
+    <rect x="28" y="114" width="62" height="18" rx="9" fill="#C6FF4D" fill-opacity=".12"/>
+    <text x="38" y="127" fill="#C6FF4D" font-family="Arial, Helvetica, sans-serif" font-size="8">+12.4%</text>
+    <path d="M28 232c24-18 34-42 58-34s30 22 52 4 32-26 52-38v66H28Z" fill="#C6FF4D" fill-opacity=".12"/>
+    <path d="M28 232c24-18 34-42 58-34s30 22 52 4 32-26 52-38" stroke="#C6FF4D" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="190" cy="164" r="4" fill="#C6FF4D"/>
+    <path d="M28 270h196" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <text x="28" y="288" fill="#68727C" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="1">WEEKLY REPORT</text>
+    <text x="212" y="288" text-anchor="end" fill="#C6FF4D" font-family="Arial, Helvetica, sans-serif" font-size="8">PDF ↗</text>
+  </g>
+
+  <g transform="translate(80 84)">
+    <circle cx="5" cy="5" r="5" fill="#C6FF4D"/>
+    <text x="20" y="9" fill="#92998F" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="3">CONCEPT PROJECT / WEB APPLICATION</text>
+  </g>
+  <text x="1520" y="1040" fill="#4F5C4A" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="4">NORTH — BUSINESS INTELLIGENCE</text>
+</svg>
